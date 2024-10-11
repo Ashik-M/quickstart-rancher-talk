@@ -10,7 +10,7 @@ This guide provides an overview of the Rancher environment, which is an open-sou
 
 
 ---
-There is a template in this repo should you want to know how to build the rancher server yousrelf [here](https://github.com/Ashik-M/quickstart-rancher-talk/blob/main/quickstart-template-rancher-registration.md)  What you'll find below is what the end-user experience should look like at a glance once you have set-everything up properly :)
+There is a template in this repo should you want to know how to build the rancher server yourself [here](https://github.com/Ashik-M/quickstart-rancher-talk/blob/main/quickstart-template-rancher-registration.md)  What you'll find below is what the end-user experience should look like at a glance once you have set-everything up properly :)
 
 In this guide, you will:
 - Log in to the Rancher UI
@@ -54,7 +54,7 @@ The **Cluster Dashboard** also provides an overview of the health of your Kubern
 ---
 
 ## Using the Built-in Kubectl Shell
-In this workshop, you'll use the built-in Rancher **Kubectl Shell** for running commands during the lab exercises.
+In this workshop, you'll use the built-in Rancher **Kubectl Shell** to run commands during the lab exercises.
 
 - Access the **Kubectl command line** by clicking the Kubectl shell button located in the **navigation bar** at the top of the screen.
 
