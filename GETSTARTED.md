@@ -40,7 +40,8 @@ For more details, refer to the [Minikube Installation Guide](https://minikube.si
 ### Start Minikube
 1. Start a Kubernetes cluster:
    ```bash
-   minikube start
+   minikube start --driver=docker
+   
    ```
 
 2. Verify that Minikube is running:
