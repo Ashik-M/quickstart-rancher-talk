@@ -17,7 +17,6 @@ Here’s a beginner-friendly guide to running Kubernetes on both Minikube and Ku
 3. [Conclusion](#conclusion)
 
 ---
-
 ## Running Kubernetes with Minikube
 
 ### Installing Minikube
@@ -49,7 +48,12 @@ For more details, refer to the [Minikube Installation Guide](https://minikube.si
    minikube status
    ```
 
+>   If you have multiple clusters using kubectl, ensure that you have set your kubectl context to minikube
+   "kubectl config use-context minikube"
+
 ### Deploy a Hello World Container
+
+
 1. Create a deployment using the `nginx` image as a simple web server:
    ```bash
    kubectl create deployment hello-minikube --image=nginx
